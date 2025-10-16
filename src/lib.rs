@@ -196,8 +196,8 @@ enum Entry<T> {
 /// ```
 #[derive(Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct Index {
-    index: usize,
-    generation: u64,
+    pub index: usize,
+    pub generation: u64,
 }
 
 impl Index {
